@@ -7,4 +7,9 @@ export interface BooksApiResponse {
     description: string
     cover_image: string
 }
+
+export interface CounterType {
+    value: number
+    isLoading: boolean
+}
   

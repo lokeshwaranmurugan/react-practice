@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { BooksApiResponse } from "../types/BookType";
+import { BooksApiResponse } from "../types/MainTypes";
 
 
 export const BooksApiSlice = createApi({

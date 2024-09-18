@@ -1,4 +1,4 @@
-import { BooksApiResponse } from "../../types/BookType"
+import { BooksApiResponse } from "../../types/MainTypes"
 import "./Card.css"
 
 const Card = ({item} : { item: BooksApiResponse}) => {
