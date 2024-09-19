@@ -12,6 +12,9 @@ const NavBar = () => {
             <li>
                 <NavLink to="/Counter"> Counter </NavLink>
             </li>
+            <li>
+                <NavLink to="/Explorer"> Explorer </NavLink>
+            </li>
         </ul>
     )
 };

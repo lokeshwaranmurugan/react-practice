@@ -3,6 +3,7 @@ import HomePage from "./app/pages/HomePage.tsx";
 import BooksPage from "./app/pages/BooksPage.tsx";
 import RootPage from "./app/pages/RootPage.tsx";
 import CounterPage from "./app/pages/CounterPage.tsx";
+import ExplorerPage from "./app/pages/ExplorerPage.tsx";
 
 const CustomRouter = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const CustomRouter = createBrowserRouter([
       {
         path:"/Counter",
         element: <CounterPage />
+      },
+      {
+        path:"/Explorer",
+        element: <ExplorerPage />
       }
     ]
   }
